@@ -29,7 +29,7 @@ public class GameLogic {
             System.out.println("How many games would you like to play?");
             int numberOfGames = sc.nextInt();
         }catch(Exception e){
-            System.out.println("Your input was wrong.");
+            System.out.println("Your input was wrong or we couldn't find this player.");
         }
     }
 
